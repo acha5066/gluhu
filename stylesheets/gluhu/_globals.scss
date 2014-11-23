@@ -1,0 +1,69 @@
+html {
+	@include box-sizing();
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.sr-only {
+	display:none;
+}
+
+.hidden-lg {
+	@media (min-width: $breakpoint-width) {
+		display:none;
+	}
+}
+
+.hidden-sm {
+	display:none;
+	@media (min-width: $breakpoint-width) {
+		display:initial;
+	}
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+.error-background {
+	padding: $form-element-padding;
+	background: $error-background-color;
+	@include border-radius($form-border-radius);
+	border: $error-background-border;
+}
+
+.success-background {
+	padding: $form-element-padding;
+	background: $success-background-color;
+	@include border-radius($form-border-radius);
+	border: $success-background-border;
+}
+
+.text-error {
+	color: $error-color;
+}
+
+.text-success {
+	color: $success-color;
+}
+
+.error {
+	@include box-shadow($error-box-shadow);
+	&:focus,
+	&:active {
+		@include box-shadow($error-box-shadow);	
+	}
+}
+
+.success {
+	@include box-shadow($success-box-shadow);
+	&:focus,
+	&:active {
+		@include box-shadow($success-box-shadow);	
+	}
+}

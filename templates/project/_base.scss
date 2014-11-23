@@ -1,0 +1,88 @@
+/* Grid ================ */
+
+$max-width: 1000px ;
+$container-width:90% ;
+$breakpoint-width: 992px ;
+$column-1-width: 10% ;
+$column-2-width: 20% ;
+$column-3-width: 30% ;
+$column-4-width: 40% ;
+$column-5-width: 50% ;
+$column-6-width: 60% ;
+$column-7-width: 70% ;
+$column-8-width: 80% ;
+$column-9-width: 90% ;
+$column-10-width: 100% ;
+$column-padding: 10px ;
+
+/* typography =============== */
+
+$font-stack: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif ;
+$heading-font-stack: 'Georgia', serif ;
+$base-font-size: 16px ;
+$base-line-height: 24px ;
+$h1-size:50px ;
+$h2-size:37px ;
+$h3-size:28px ;
+$lead-text-size:21px ;
+$list-padding: 40px ;
+
+/* Nav stuff =============== */
+
+$nav-float: right ;
+$nav-button-background-color: #cc3d27 ;
+$nav-button-text-color: #fff ;
+/* Margin bottom at small viewports */
+$nav-list-margin-bottom: 20px ;
+$nav-list-margin-top: 20px ;
+/* The padding around the link element */
+$nav-link-padding: 15px ;
+/* The padding between navigation elememts */
+$nav-padding: 10px ;
+$default-box-shadow-color: darken($nav-button-background-color, 20%) ;
+$default-box-shadow-v-offset: 4px ;
+$default-box-shadow-blur: 1px ;
+$hamburger-menu-padding: 5px ;
+$hamburger-menu-color: #fff ;
+$hamburger-menu-size: 28px ;
+$hamburger-menu-background-color: #cc3d27 ; 
+
+/* Validation states ===========  */ 
+
+/* success */
+
+$success-color: #109500 ;
+$success-background-color: lighten($success-color, 40%) ;
+$success-background-border: 2px solid darken($success-color, 20%) ;
+$success-box-shadow: 0px 0px 3px 2px $success-color ;
+
+
+/* errors */ 
+
+$error-color:#E13020 ; 
+$error-background-color: lighten($error-color, 20%) ;
+$error-background-border: 2px solid darken($error-color, 20%) ;
+$error-box-shadow: 0px 0px 3px 2px $error-color ;
+
+/* forms ================== */
+
+$outline-color: #058AD9 ;
+$element-border: 1px solid #ccc ;
+$form-element-padding: 10px ;
+$element-box-shadow: 0px 0px 3px 2px $outline-color ;
+$form-border-radius:10px ;
+/* Bottom margin between form elements */
+$element-bottom-margin: 10px ;
+
+/* Button */
+$button-text-color: #fff ;
+$button-border: 0 ;
+$button-margin-top: 10px ;
+$button-margin-bottom: 20px ;
+$button-color: #cc3d27 ;
+/* Lightens the button color */
+$button-hover-color: $button-color ;
+$button-hover-color-amount: 5% ;
+/* Darkens the button color */
+$button-active-color: $button-color ;
+$button-active-color-amount: 20% ;

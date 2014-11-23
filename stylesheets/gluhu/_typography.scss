@@ -1,0 +1,51 @@
+@include establish-baseline;
+
+body {
+	font-family: $font-stack;	
+}
+
+h1 {
+	font-family: $heading-font-stack;
+	@include adjust-font-size-to($h1-size);
+	margin-bottom: rhythm(1, $h1-size);
+}
+
+.h2-logo {
+	font-family: $heading-font-stack;
+	display:inline-block;
+}
+
+h2 {
+	font-family: $heading-font-stack;
+	@include adjust-font-size-to($h2-size);
+	margin-bottom: rhythm(1, $h2-size);
+}
+
+h3 {
+	font-family: $heading-font-stack;
+	@include adjust-font-size-to($h3-size);
+	margin-bottom: rhythm(1, $h3-size);
+}
+
+p {
+	@include trailer;
+}
+
+.lead-text {
+	@include adjust-font-size-to($lead-text-size);
+	@include trailer(1, $lead-text-size);
+}
+
+ul {
+	padding-left:$list-padding;
+	list-style-type:disc;
+	@include trailer;
+}
+
+ol {
+	padding-left:$list-padding;
+	list-style-type:decimal;
+	@include trailer;
+}
+
+

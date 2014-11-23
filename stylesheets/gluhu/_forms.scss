@@ -1,0 +1,102 @@
+label {
+	display:block;
+	width:100%;
+	margin-bottom: $element-bottom-margin;
+	font-size:$base-font-size;
+}
+
+input {
+	display:block;
+	width:100%;
+	font-size:$base-font-size;
+	margin-bottom: $element-bottom-margin;
+	padding: $form-element-padding;
+	border: $element-border;
+	outline: 0;
+	@include border-radius($form-border-radius);
+	&:focus,
+	&:active {
+		@include box-shadow($element-box-shadow);
+	}
+}
+
+button {
+	background-color:$nav-button-background-color;
+	color:$button-text-color;
+	border:$button-border;
+	@include border-radius;
+	@include box-shadow;
+	margin-top:$button-margin-top;
+	margin-bottom:$button-margin-bottom;
+	padding: $form-element-padding;
+	font-size: $base-font-size;
+	outline: 0;
+	&:hover {
+		background-color:lighten($button-hover-color, $button-hover-color-amount);
+		cursor:pointer;
+	}
+	&:active {
+		background-color:darken($button-active-color, $button-active-color-amount);
+	}
+}
+
+.radio-option {
+	input[type="radio"] {
+		display:inline;
+		width:initial;
+		outline: 0;
+		&:focus,
+		&:active {
+			@include box-shadow(none);
+		}
+	}
+	label {
+		display:block;
+	}
+}
+
+input[type="checkbox"] {
+	outline:0;
+	display:inline;
+	width:initial;
+	&:focus,
+	&:active {
+		@include box-shadow(none);
+	}
+	@include border-radius(0);	
+}
+
+textarea {
+	display:block;
+	width:100%;
+	font-size:$base-font-size;
+	margin-bottom: $element-bottom-margin;
+	padding: $form-element-padding;
+	border: $element-border;
+	outline: 0;
+	@include border-radius($form-border-radius);
+	&:focus,
+	&:active {
+		@include box-shadow($element-box-shadow);;
+	}
+}
+
+select {
+	border:$element-border;
+	display:block;
+	width:100%;
+	font-size:$base-font-size;
+	margin-bottom: $element-bottom-margin;
+	@include border-radius($form-border-radius);
+	padding:$form-element-padding;
+	outline: 0;
+	&:focus,
+	&:active {
+		@include box-shadow($element-box-shadow);;
+		background-color: #fff;
+	}
+}
+
+input[type="submit"] {
+	width:initial;
+}

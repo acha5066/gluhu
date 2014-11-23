@@ -1,0 +1,88 @@
+/* Grid ================ */
+
+$max-width: 1000px !default;
+$container-width:90% !default;
+$breakpoint-width: 992px !default;
+$column-1-width: 10% !default;
+$column-2-width: 20% !default;
+$column-3-width: 30% !default;
+$column-4-width: 40% !default;
+$column-5-width: 50% !default;
+$column-6-width: 60% !default;
+$column-7-width: 70% !default;
+$column-8-width: 80% !default;
+$column-9-width: 90% !default;
+$column-10-width: 100% !default;
+$column-padding: 10px !default;
+
+/* typography =============== */
+
+$font-stack: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$heading-font-stack: 'Georgia', serif !default;
+$base-font-size: 16px !default;
+$base-line-height: 24px !default;
+$h1-size:50px !default;
+$h2-size:37px !default;
+$h3-size:28px !default;
+$lead-text-size:21px !default;
+$list-padding: 40px !default;
+
+/* Nav stuff =============== */
+
+$nav-float: right !default;
+$nav-button-background-color: #cc3d27 !default;
+$nav-button-text-color: #fff !default;
+/* Margin bottom at small viewports */
+$nav-list-margin-bottom: 20px !default;
+$nav-list-margin-top: 20px !default;
+/* The padding around the link element */
+$nav-link-padding: 15px !default;
+/* The padding between navigation elememts */
+$nav-padding: 10px !default;
+$default-box-shadow-color: darken($nav-button-background-color, 20%) !default;
+$default-box-shadow-v-offset: 4px !default;
+$default-box-shadow-blur: 1px !default;
+$hamburger-menu-padding: 5px !default;
+$hamburger-menu-color: #fff !default;
+$hamburger-menu-size: 28px !default;
+$hamburger-menu-background-color: #cc3d27 !default; 
+
+/* Validation states ===========  */ 
+
+/* success */
+
+$success-color: #109500 !default;
+$success-background-color: lighten($success-color, 40%) !default;
+$success-background-border: 2px solid darken($success-color, 20%) !default;
+$success-box-shadow: 0px 0px 3px 2px $success-color !default;
+
+
+/* errors */ 
+
+$error-color:#E13020 !default; 
+$error-background-color: lighten($error-color, 20%) !default;
+$error-background-border: 2px solid darken($error-color, 20%) !default;
+$error-box-shadow: 0px 0px 3px 2px $error-color !default;
+
+/* forms ================== */
+
+$outline-color: #058AD9 !default;
+$element-border: 1px solid #ccc !default;
+$form-element-padding: 10px !default;
+$element-box-shadow: 0px 0px 3px 2px $outline-color !default;
+$form-border-radius:10px !default;
+/* Bottom margin between form elements */
+$element-bottom-margin: 10px !default;
+
+/* Button */
+$button-text-color: #fff !default;
+$button-border: 0 !default;
+$button-margin-top: 10px !default;
+$button-margin-bottom: 20px !default;
+$button-color: #cc3d27 !default;
+/* Lightens the button color */
+$button-hover-color: $button-color !default;
+$button-hover-color-amount: 5% !default;
+/* Darkens the button color */
+$button-active-color: $button-color !default;
+$button-active-color-amount: 20% !default;
