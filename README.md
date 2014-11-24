@@ -61,43 +61,24 @@ The _base.scss file allows you to override virtually any variable without having
 Installation 
 ------------
 
-### New compass project
-
-Install compass if you haven't already. 
+### Install the gem
 
 ```
-gem install compass
+sudo gem install gluhu
 
 ```
-Create an empty compass project. 
+Create a new compass project using gluhu
 
 ``` 
-compass create my-project --bare
+compass create my_project -r gluhu --using gluhu
 
 ```
-Install gluhu
-
-``` 
-compass install gluhu 
-
-``` 
-Then open config.rb and require gluhu
-
-```
-require 'compass/import-once/activate'
-
-# Require any additional compass plugins here.
-
-require "gluhu"
-
-```
-
 ### Existing compass project. 
 
 Install gluhu 
 
 ``` 
-compass install gluhu
+gem install gluhu
 
 ```
 
@@ -111,6 +92,11 @@ require 'compass/import-once/activate'
 require "gluhu"
 
 ```
+
+Then run 
+
+``` 
+compass install gluhu
 
 ### Installing jQuery
 

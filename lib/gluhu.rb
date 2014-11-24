@@ -17,7 +17,7 @@ Compass::Frameworks.register('gluhu', :path => extension_path)
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module Gluhu
-  VERSION = "0.0.4"
+  VERSION = "0.0.6"
   DATE = "2014-11-22"
 end
 
