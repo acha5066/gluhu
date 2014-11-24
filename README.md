@@ -61,7 +61,7 @@ The _base.scss file allows you to override virtually any variable without having
 Installation 
 ------------
 
-### Install the gem
+### Install Gluhu in a new compass project
 
 ```
 sudo gem install gluhu
@@ -73,6 +73,16 @@ Create a new compass project using gluhu
 compass create my_project -r gluhu --using gluhu
 
 ```
+
+Relative assets must be set to true in config.rb in order for icon fonts to display. You may need to restart compass for this change to work.
+
+``` Ruby
+
+# To enable relative paths to assets via compass helper functions. Uncomment:
+relative_assets = true
+
+```
+
 ### Existing compass project. 
 
 Install gluhu 
@@ -90,6 +100,15 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
 require "gluhu"
+
+```
+
+Relative assets must be set to true in config.rb in order for icon fonts to display. You may need to restart compass for this change to work.
+
+``` Ruby
+
+# To enable relative paths to assets via compass helper functions. Uncomment:
+relative_assets = true
 
 ```
 
