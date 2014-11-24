@@ -141,4 +141,4 @@ bower install jquery
 
 <hr>
 
-Add the gluhu stylesheet, jQuery and toggle.js files to gluhu-example.html otherwise it won't work. 
+Add the gluhu stylesheet, jQuery and toggle.js files to `gluhu-example.html` otherwise it won't work. Use `gluhu-example.html` to geta feel for the framework and see how it works. 
