@@ -19,7 +19,7 @@ font 'icomoon.woff', :within => 'fonts_dir'
 
 #HTML import 
 
-html 'gluhu-example.html'
+discover :html
 
 # file 'scripts.js', :like => :javascript, :to => 'scripts.js'
 
