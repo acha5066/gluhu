@@ -17,6 +17,10 @@ font 'icomoon.svg', :within => 'fonts_dir'
 font 'icomoon.ttf', :within => 'fonts_dir'
 font 'icomoon.woff', :within => 'fonts_dir'
 
+#HTML import 
+
+html 'gluhu-example.html'
+
 # file 'scripts.js', :like => :javascript, :to => 'scripts.js'
 
 # General File Import
