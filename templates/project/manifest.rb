@@ -1,5 +1,5 @@
 # Description
-description "SS-Framework is a front-end framework for building websites more quickly."
+description "Gluhu is a compass extension for developing more quickly."
 
 # Stylesheet Import
 stylesheet '_base.scss', :media => 'screen, projection'
@@ -34,6 +34,6 @@ help %Q{
 # Compass Extension Welcome Message
 #  Users will see this when they create a new project using this template.
 welcome_message %Q{
-  Welcome to Gluhu, a compass extension to speed up front end development. 
+  Welcome to Gluhu, a compass extension to speed up development. 
   May the code be ever in your favour.
 }

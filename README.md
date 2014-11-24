@@ -117,6 +117,8 @@ Then run
 ``` 
 compass install gluhu
 
+```
+
 ### Installing jQuery
 
 Some aspects of gluhu rely on jQuery. There are a number ways to include it. I won't go over all of them. 
@@ -141,4 +143,4 @@ bower install jquery
 
 <hr>
 
-Add the gluhu stylesheet, jQuery and toggle.js files to `gluhu-example.html` otherwise it won't work. Use `gluhu-example.html` to geta feel for the framework and see how it works. 
+Add the gluhu stylesheet, jQuery and toggle.js files to gluhu-example.html otherwise it won't work. Use gluhu-example.html to get a feel for the framework and see how it works. 
