@@ -1,18 +1,10 @@
 /* Grid ================ */
 
-$max-width: 1000px !default;
+$max-width: 1200px !default;
 $container-width:90% !default;
 $breakpoint-width: 992px !default;
-$column-1-width: 10% !default;
-$column-2-width: 20% !default;
-$column-3-width: 30% !default;
-$column-4-width: 40% !default;
-$column-5-width: 50% !default;
-$column-6-width: 60% !default;
-$column-7-width: 70% !default;
-$column-8-width: 80% !default;
-$column-9-width: 90% !default;
-$column-10-width: 100% !default;
+$column-width: 10% !default;
+$column-count: 12 !default;
 $column-padding: 10px !default;
 
 /* typography =============== */

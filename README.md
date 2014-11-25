@@ -8,11 +8,9 @@ Features
 
 ### Grid system 
 
-10 column responsive grid system. 
+Responsive grid. You can define as many columns as you need, customize the breakpoint and define the container width. 
 
-Columns sit inside of a row.
-
-Maximum 10 columns in a row. 
+Columns sit inside of a row. 
 
 ``` HTML 
 

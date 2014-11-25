@@ -3,12 +3,10 @@
 	max-width: $max-width;
 	margin: 0 auto;
 	@include clearfix;
+	&:after {
+	  	@include clearfix;
+	}
 }
-
-.container:after {
-  	@include clearfix;
-}
-
 .row:after {
 	@include clearfix;
 }
@@ -20,37 +18,32 @@
     width:100%;
 }
 
+[class*='column-offset'] {
+	display:none;
+}
+
+@mixin columns() {
+	@for $i from 1 through $column-count {
+  		.column-#{$i} {
+  			width: ($i / $column-count) * 100%;
+  		}
+  	}
+}
+
+@mixin column-offset() {
+	@for $i from 1 through $column-count {
+		.column-offset-#{$i} {
+			margin-left: ($i / $column-count) * 100%;
+			display:initial;
+		}
+	}
+}
+
 @media (min-width:$breakpoint-width) {
-	.column-1 {
-		width: $column-1-width;
-	}
-	.column-2 {
-		width: $column-2-width;
-	}
-	.column-3 {
-		width: $column-3-width;
-	}
-	.column-4 {
-		width: $column-4-width;
-	}
-	.column-5 {
-		width: $column-5-width;
-	}
-	.column-6 {
-		width: $column-6-width;
-	}
-	.column-7 {
-		width: $column-7-width;
-	}
-	.column-8 {
-		width: $column-8-width;
-	}
-	.column-9 {
-		width: $column-9-width;
-	}
-	.column-10 {
-		width: $column-10-width;
-	}
+
+	@include columns;
+
+	@include column-offset;
 }
 
 .example-block {
